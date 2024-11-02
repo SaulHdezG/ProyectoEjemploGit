@@ -16,6 +16,7 @@ así como familiarizarse con los comandos para la creación y manejo de archivos
 
 ## Comando utilizados
 Los comandos que se utilizaron fueron los siguientes:
+```
 git config --global user.name 
 git config --global user.email
 git init
@@ -29,7 +30,7 @@ cd
 ls -al
 git remote -v
 git branch
-
+```
 ## Notas sobre el archivo **.gitignore** 
 El archivo .gitignore nos ayuda a seleccionar los archivos que no queremos subir al control de versiones remoto; en este caso, se ignora el archivo debug.log. 
 Para corroborar que el archivo fue efectivamente ignorado, usamos el comando git status. 
